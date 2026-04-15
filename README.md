@@ -100,15 +100,15 @@ Expected:
 
 ---
 ## OUTPUT 
- ![Start](images\3.jpeg)
+ ![Start](images/3.jpeg)
 * Flow tables
-![Flow tables](images\5.jpeg)
+![Flow tables](images/5.jpeg)
 
 * ICMP packets (ping)
-![ping command](images\6.jpeg)
-![](images\4.jpeg)
+![ping command](images/6.jpeg)
+![](images/4.jpeg)
 * TCP traffic (iperf)
- ![](images\10.jpeg)
+ ![](images/10.jpeg)
 
 ---
 ## Test Scenarios
