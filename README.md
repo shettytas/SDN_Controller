@@ -116,13 +116,13 @@ Expected:
 ### Scenario 1: Normal vs Failure
 
 #### Failure Case
-![Failure](images/9.png)
+![Failure](images/9.jpeg)
 
 - 100% packet loss observed
 - Indicates missing/incorrect flow rules
 
 #### Normal Case
-![Success](images/10.png)
+![Success](images/10.jpeg)
 
 - 0% packet loss
 - Static routing works correctly
