@@ -144,6 +144,8 @@ Procedure:
 2. Reinstall flow rules
 3. Re-run ping
 
+![](images/12.jpeg)
+
 Expected Result:
 
 * Path remains unchanged
