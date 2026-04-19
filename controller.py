@@ -51,6 +51,9 @@ class StaticRouting(app_manager.RyuApp):
         # STATIC ROUTING RULES
         # Switch 1: Forward between ports 1 and 2
         if dpid == 1:
+            # Firewall rule: Drop packets arriving on port 1 (blocks h1 → h2 traffic)
+            self.add_flow(dp, 20,
+                  parser.OFPMatch(in_port=1),[]) 
             self.add_flow(dp, 10,
                           parser.OFPMatch(in_port=1),
                           [parser.OFPActionOutput(2)])
