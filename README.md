@@ -33,7 +33,6 @@ h1 ---- s1 ---- s2 ---- h2
 * Mininet (network emulation)
 * Ryu Controller (SDN controller)
 * OpenFlow 1.3
-* Wireshark (packet analysis)
 * iperf / ping (performance testing)
 
 ---
